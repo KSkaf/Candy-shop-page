@@ -1,0 +1,160 @@
+/*geniko gia ola*/
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Satisfy&family=Tangerine&display=swap');
+
+*{
+    color: rgb(131, 107, 70);
+    box-sizing: border-box;
+}
+@media screen and (max-width:500px){
+#logo
+{
+    margin-top: -3%;
+    padding-left: 30%;
+
+}
+
+}
+
+@media screen and (min-width:1600px){
+#logo
+{
+    margin-top: -3%;
+    animation: move 4s 1;
+    animation-fill-mode: backwards;
+}
+@keyframes move{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(720px);
+        opacity: 1;
+    }
+    50.01%{
+        opacity: 0.5;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 0.5;
+        
+    }
+}
+}
+body
+{
+    background-color: pink;
+   /* background:linear-gradient(to bottom,pink,rgb(238, 119, 119)) polu timio*/
+}
+ul{
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    font-weight: bold;
+    display: inline-block;
+    margin:10px 20px 10px 0px;
+    
+}
+a{
+    font-size: large;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(56, 125, 161);
+    text-decoration:underline;
+}
+/*#logoname
+{
+    font-size:x-large;
+    margin-top: -0.5%;
+    margin-left: 2.4%;
+    text-shadow: 1px 1px rgb(22, 22, 22);
+}*/
+#banner
+{
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    filter: brightness(0.8);
+    border-radius: 40%;
+    border-style:solid;
+    border-color: rgb(131, 107, 70);
+    border-width: 3px;
+
+}
+#copy
+{
+    font-size:smaller;
+    color: rgb(22, 22, 22);
+    
+}
+
+
+/* gia to index*/
+#welcome
+{
+    padding-right: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size:45px;
+    text-shadow: 1px 1px rgb(22, 22, 22);
+}
+#products
+{
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px rgb(22, 22, 22);
+    text-align: center;
+}
+/*gia about*/
+#about
+{
+    
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px rgb(22, 22, 22); 
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display:table;
+  
+}
+
+/*stores*/
+#stores
+{  
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px rgb(22, 22, 22);
+}
+
+#city,#order,#profit
+{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+.address
+{
+    margin:-2.5% auto 2% 10%;
+}
+/*contact us*/
+#contact
+{
+    
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px rgb(22, 22, 22);
+}
+
+
+
